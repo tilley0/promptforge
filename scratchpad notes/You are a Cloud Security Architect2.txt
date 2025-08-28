@@ -1,0 +1,34 @@
+You are a Cloud Security Architect developing the baseline security plan for a government agency's Azure Landing Zone deployment to Azure Government against the FedRAMP High Customer Responsibility Matrix.  
+The Azure Landing Zone implementation will be derived from the Microsoft missionLZ reference architecture and will be aligned with the best practices described in Microsoft's Cloud Adoption Framework and Azure Well Architected Framework.  The solution will consist of a Platform Landing Zone which will contain the management groups and subscriptions for the core shared services, and Application Zones, which will contain the Sandbox development management group and subscription, the AI/ML Services Management Group and subscriptions, and the Enterprise Workload Management group and subscription.  The attached documents provide a comprehensive explanation of the design and implementation requirements. The "MVP and Done Requirements.docx" document outlines the requirements for the minimum viable product for ATO. The document named "LANL AZ - Azure network Architecture Plan - FiNAL.docx" describes the network connectivity design and the services that need to be implemented there.  The document named "LANL AZ - Azure Landing Zone Architecture Plane - FINAL.docx" describes the design of the Landing Zones and the services that will be implemented there. The document named Azure Landing Zone Architecture Analysis - FINAL.docx" provides an analysis of the Landing Zone design and implementation plan against icrosoft's Cloud Adoption Framework and Azure Well Architected Framework.  The document "LANL AZ- Deployment Plan - FINAL.docx" describes the DevOps CI/CD Infrastructure-as-Code and Policy-as-Code approach for deploying, configuring, and maintaining the landing zones.
+
+
+The agency's cloud security requirements are aligned with NIST SP 800-53 and NIST SP 800-171 at impact level High for unclassified data and systems.
+
+The uploaded document details the Azure Landing Zone implementation plans for Azure Commercial and Azure Government.
+
+Develop a Cloud Security Implementation Plan that identifies all of the controls identified as "Shared" and "Customer" responsibility by the FedRAMP CRM and Microsoft Azure Security Baseline Initiative (https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines/3.0) for in-scope Azure services and Microsoft's FedRAMP High Regulatory Compliance built-in initiative (https://learn.microsoft.com/en-us/azure/governance/policy/samples/fedramp-high)
+
+
+-----
+
+Export the full FedRAMP High Compliance initiative definition from the Azure Portal or GitHub (release date ~July 29, 2025) to enumerate all Shared and Customer-ownership controls tech‑specific details
+
+-----
+
+The attached spreadsheet named "CRM-Local-Controls.xslx" which lists the NIST SP 800-53r5 customer responsibility controls that need to be implemented in both the Azure Commercial and Azure Government tentants. Update the spreadsheet provide appropriate policy mappings references in the Commercial column for the Azure Commercial Landing Zone and mappings in the Government column for the Azure Government Landing Zone.  The policies should be derived from the Microsoft Built-In initiatives (https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-initiatives?context=%2Fazure%2Fgovernance%2Fpolicy%2Fcontext%2Fpolicy-context) and Built-in policies (https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-policies?context=%2Fazure%2Fgovernance%2Fpolicy%2Fcontext%2Fpolicy-context)  and  samples from the Microsoft Azure Offer Security Baselines 3.0 (https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines/3.0).  The NIST 800-53r5, 800-171r2, and FedRAMP High regulatory driven policies should be the primary references.
+
+----
+This control-policy mapping is for planning a new deployment of Azure Landing Zone to Azure Commercial and Azure Government. I would like you to populate the CRM-Local-Controls spreadsheet with the appropriate policy references from the Microsoft Azure Offer Security Baselines 3.0 github repo at this URL https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines/3.0" and then create a github repo with the subset of policies to be applied to the commercial and government tenants.
+
+----
+Based on the comprehensive review of the uploaded architecture and deployment planning documents, here is the enumerated set of Azure services that will be deployed across both Azure Commercial and Azure Government tenants as part of the LANL Azure Landing Zone (LZ):
+
+
+
+----
+
+First fully map the security policies for the services that will be components of the Platform Landing zone and draft corresponding policY files for the repository.  The Platform Landing Zone will include the following services: Virtual Networks (VNets) & Subnets, NSGs, Azure Firewall Premium, VPN Gateway, ExpressRoute Gateway, Route Server, Bastion, Application Gateway (WAF), Azure DNS Private Resolver, User-Defined Routes (UDRs), Microsoft Entra ID, Entra ID Connect, Privileged Identity Management (PIM), Role-Based Access Control (RBAC), Conditional Access, Defender for Cloud, Microsoft Sentinel, Azure Policy, Key Vault (CMK, HSM), Azure Monitor, Network Watcher, Log Analytics, GitLab CI/CD with Terraform & Sentinel policy enforcement, Diagnostic Settings, Immutable logging (via Log Analytics, Sentinel)  The Application Landing Zones will be "Sandbox", "AI/ML Services", and "Enterprise Workloads".  Fully map the security policies
+
+----
+
+Yes, generate JSON stubs for each policy file using the built-in policy IDs (based on ASB baseline files), the draft the initiative manifest for both Commercial and Government tenants.  Then load this into the GitHub repo to support policy-as-code deployments.

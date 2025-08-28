@@ -1,0 +1,9 @@
+Using the Azure Cloud Architect persona, review the uploaded document name "Azure Landing Zone Architecture Analysis - FINAL.docx" and address the following weaknesses to improve the document:
+• Advisory analysis only – not a final design deliverable
+• No conditional access policies or defined network segmentation
+• No hub-and-spoke network design decisions documented
+• No sample Azure policy mapping to controls or security architecture
+• Azure IAM coverage incomplete – Entra ID, PIM, access reviews, cloud-to-cloud (AWS to Azure) authentication/authorization not addressed
+• No architecture for securely integrating Azure AI services with AWS AI portal/API calls.
+• No DR/BC strategy
+• Missing details for Azure monitoring, Defender for Cloud rollout, and Sentinel implementation

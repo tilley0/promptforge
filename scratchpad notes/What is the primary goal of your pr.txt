@@ -1,0 +1,18 @@
+What is the primary goal of your project (e.g., migration to the cloud, optimizing existing cloud infrastructure, ensuring security and compliance)?
+
+
+What are the key focus areas for the expert analysis, design, and implementation (e.g., architecture, engineering, security, cost optimization)?
+
+Are there any specific Azure or AWS services or features that you want the prompts to focus on (e.g., serverless computing, containers, data analytics, AI/ML)?
+
+What is the desired level of expertise for the GPT prompts (e.g., beginner, intermediate, advanced)?
+
+Are there any specific pain points or challenges that you want the prompts to address (e.g., scalability, performance, security, cost management)?
+
+Additionally, it would be helpful to know:
+
+What is the expected output or deliverable from the GPT prompts (e.g., a written report, a presentation, a set of design documents, a implementation plan)?
+
+Are there any specific stakeholders or audience that the output will be intended for (e.g., technical teams, business stakeholders, executive leadership)?
+
+Are there any existing frameworks, methodologies, or tools that you want the prompts to integrate with (e.g., AWS Well-Architected Framework, Azure Architecture Center, DevOps practices)?

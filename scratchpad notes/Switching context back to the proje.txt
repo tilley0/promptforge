@@ -1,0 +1,12 @@
+Switching context back to the project schedule, the uploaded file named "alz-jira-issues-report-08162025.xlsx" contains an export of the current Jira project plan.  The important columns in the file are:
+- "Summary": contains the name of the issue
+- "Issue Key": is the unique project key for the issue
+- "Issue id": the universally unique id for the issue
+- "Parent id": provides reference to the parent "Issue id"
+- "Fix Version/s": identifies the release that the issue is scheduled for
+- "Description": a description of the project issue/item
+- "Labels": identifies which Azure environment the issue is associated with; "ComLZ" for Azure Commercial and "GovLZ" for Azure Government 
+
+Adjust the developed project schedule to combine the previously developed schedule with this schedule. Collapse and combine tasks as necessary to logically align the work and provide mirrored tasks for implementing the project in Azure Commercial and Azure Government. Assume the planning and design work has been completed before project execution begins.
+
+Replace the "Phase *" phrasing with "Week *" and provide daily groupings of tasks to complete. The project schedule should start on August 18, 2025, and must be completed by September 30, 2025.
