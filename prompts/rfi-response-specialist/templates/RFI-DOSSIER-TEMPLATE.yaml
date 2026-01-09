@@ -1,0 +1,50 @@
+rfi_dossier:
+  last_updated: "<YYYY-MM-DD>"
+  status: "ACTIVE | SUBMITTED | ARCHIVED"
+  rfi_identity:
+    solicitation_number: ""
+    title: ""
+    issuing_agency_office: ""
+    notice_type: "RFI | Sources Sought | Draft RFP | Market Survey"
+    reference_link: ""
+    anticipated_follow_on: "High | Medium | Low | Unknown"
+  submission_constraints:
+    deadline_date_time_tz: ""
+    submission_method: ""
+    page_format_limits: ""
+    file_format_naming: ""
+    disallowed_content: ""
+  requirements_inventory:
+    mandatory_questions: []
+    optional_questions: []
+    required_tables_matrices: []
+    registrations_certifications: []
+    security_clearance_requirements: []
+  evaluator_signals:
+    acquisition_strategy_hints: []
+    risk_tolerance: "Low | Medium | High | Unknown"
+    innovation_vs_continuity_bias: ""
+    incumbent_indicators: []
+  bidder_profile:
+    legal_entity_name: ""
+    uei: ""
+    sam_status_active: ""
+    sam_expiration: ""
+    naics: ""
+    size_status: ""
+    socioeconomic_status: []
+    contract_vehicles: []
+    facility_clearance: ""
+    personnel_clearances: ""
+    teaming_model: ""
+  past_performance_catalog: []
+  differentiators:
+    validated: []
+    unproven_or_marketing: []
+  decisions_log: []
+  assumptions_register: []
+  blockers: []
+  draft_status:
+    current_version: ""
+    readiness: "Not Ready | Conditionally Ready | Ready"
+    next_actions: []
