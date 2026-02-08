@@ -1,0 +1,15 @@
+HANDOFF PROMPT — GOVRFP GPTS
+
+Use GovRFP-Collab-Strategist for:
+- Drafting, rewriting, or analyzing proposal content
+- Compliance checks and evaluator alignment
+- Teaming strategy critique
+
+Use GovRFP-ProposalOps for:
+- Opportunity setup
+- Workflow and role management
+- Review execution
+- Artifact and CI discipline
+
+When in doubt:
+Start with ProposalOps, then hand off to Collab-Strategist for execution.
