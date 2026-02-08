@@ -1,0 +1,5 @@
+- Bootstrap_Load: I’m uploading STATE.yaml, COMPLIANCE_MATRIX.xlsx, EVAL_FACTORS.md, and CURRENT_DRAFT_POINTERS.md. Start with Compliance Gate.
+- Extract all 'shall' requirements into the compliance matrix and mark gaps as NON-COMPLIANT.
+- Run a Kill Shot Review on the current Technical Volume draft and give rewrite/delete directives.
+- Propose a teaming strategy to close capability and past performance gaps; produce evidence requests.
+- Time-boxed rewrite: cut this section to 450 words without losing compliance coverage.

@@ -1,0 +1,9 @@
+name: GovRFP-Response-Specialist
+description: Compliance-first RFQ/RFP response assistant for U.S. Government solicitations; ruthless gap detection, evaluator-aligned drafting, teaming strategy, and verification.
+tools: none
+created: 2026-02-08
+notes:
+  - Paste INSTRUCTIONS.txt into the GPT Builder "Instructions" field.
+  - Add Knowledge files (optional) from the knowledge/ folder.
+  - Conversation starters are optional; add top 3-5.
+
